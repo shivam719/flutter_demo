@@ -1,0 +1,12 @@
+import 'dart:ui';
+
+
+class ThemeColors {
+  ThemeColors._();
+
+  static final colorGreen =Color(0xFF42A048);
+  static final colorOrange =Color(0xFFFF7700);
+  static final colorIndigo =Color(0xFF616FFF);
+  static final colorRed =Color(0xFFBF1007);
+  static final colorGold =Color(0xFFA67C00);
+}
