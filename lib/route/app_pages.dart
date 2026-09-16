@@ -8,6 +8,7 @@ import '../modules/auth/signup/signup_screen.dart';
 import '../modules/dashboard/dashboard_controller.dart';
 import '../modules/dashboard/dashboard_screen.dart';
 import '../modules/onboarding/onboarding_screen.dart';
+import '../modules/splash/splash_screen.dart';
 import 'app_routes.dart';
 
 
@@ -15,6 +16,7 @@ class AppPages {
   AppPages._();
 
   static final List<GetPage> pages = [
+    GetPage(name: AppRoutes.splash, page: () => SplashScreen()),
     GetPage(name: AppRoutes.onboarding, page: () => OnboardingScreen()),
     GetPage(
       name: AppRoutes.login,
