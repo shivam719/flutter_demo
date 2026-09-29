@@ -28,6 +28,7 @@ class MyApp extends StatelessWidget {
       theme: brightness == Brightness.light ? theme.light() : theme.dark(),
       debugShowCheckedModeBanner: false,
       getPages: AppPages.pages,
+      navigatorObservers: [routeObserver],
       initialRoute: isLoggedIn ? AppRoutes.dashboard : AppRoutes.splash,
     );
   }

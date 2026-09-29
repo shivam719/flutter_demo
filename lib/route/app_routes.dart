@@ -1,5 +1,7 @@
 
 
+import 'package:flutter/material.dart';
+
 class AppRoutes {
   AppRoutes._();
 
@@ -8,5 +10,7 @@ class AppRoutes {
   static const dashboard = '/dashboard';
   static const login = '/login';
   static const signUp = '/signUp';
-
 }
+
+final RouteObserver<PageRoute> routeObserver = RouteObserver<PageRoute>();
+
